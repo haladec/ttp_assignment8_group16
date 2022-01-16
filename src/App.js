@@ -26,6 +26,7 @@ class App extends Component {
         color: state.color,
         rows: rows,
         columns: state.columns,
+        
       };
     });
   };
