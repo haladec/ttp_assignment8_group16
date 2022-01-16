@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ttp_assignment8_group16/static/css/main.bdd7ab11.css",
+    "main.js": "/ttp_assignment8_group16/static/js/main.cc179b26.js",
+    "index.html": "/ttp_assignment8_group16/index.html",
+    "main.bdd7ab11.css.map": "/ttp_assignment8_group16/static/css/main.bdd7ab11.css.map",
+    "main.cc179b26.js.map": "/ttp_assignment8_group16/static/js/main.cc179b26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdd7ab11.css",
+    "static/js/main.cc179b26.js"
+  ]
+}
