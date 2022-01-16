@@ -1,0 +1,20 @@
+tr {
+    height: 35px;
+  }
+  
+  td {
+    border: 3.5px solid black !important;
+    width: 35px;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .cell {
+    background-color: white;
+  }
