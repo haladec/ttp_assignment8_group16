@@ -77,18 +77,21 @@ class App extends Component {
   render() {
     return (
       <>
-      <Button className="btn-color" onClick={this.handleAddColumn}>Add Column</Button>
-      <Button className="btn-color" onClick={this.handleRemoveColumn}>Remove Column</Button>    
-      <Button className="btn-color" onClick={this.handleAddRow}>Add Row</Button>
-      <Button className="btn-color" onClick={this.handleRemoveRow}>Remove Row</Button>
+        <header className="App-header">
+          <Button className="btn-color" onClick={this.handleAddColumn}>Add Column</Button>
+          <Button className="btn-color" onClick={this.handleRemoveColumn}>Remove Column</Button>    
+          <Button className="btn-color" onClick={this.handleAddRow}>Add Row</Button>
+          <Button className="btn-color" onClick={this.handleRemoveRow}>Remove Row</Button>
 
-      <NavDropdown title="Dropdown" id="nav-dropdown" onSelect={this.handleChangeColor}>
-        <NavDropdown.Item eventKey="blue">Blue</NavDropdown.Item>
-        <NavDropdown.Item eventKey="red">Red</NavDropdown.Item>
-        <NavDropdown.Item eventKey="white">white</NavDropdown.Item>
-      </NavDropdown>
-        
-        <Table color={this.state.color} rows={this.state.rows} columns={this.state.columns} />
+          <NavDropdown title="Dropdown" id="nav-dropdown" onSelect={this.handleChangeColor}>
+            <NavDropdown.Item eventKey="blue">Blue</NavDropdown.Item>
+            <NavDropdown.Item eventKey="red">Red</NavDropdown.Item>
+            <NavDropdown.Item eventKey="white">white</NavDropdown.Item>
+          </NavDropdown>
+        </header>
+        <div className="table">
+          <Table color={this.state.color} rows={this.state.rows} columns={this.state.columns} />
+        </div>
       </>
     );
   }
